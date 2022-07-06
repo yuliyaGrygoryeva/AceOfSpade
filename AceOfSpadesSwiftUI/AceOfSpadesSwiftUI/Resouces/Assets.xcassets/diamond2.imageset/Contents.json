@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "diamond2.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -9,7 +10,6 @@
       "scale" : "2x"
     },
     {
-      "filename" : "diamond.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

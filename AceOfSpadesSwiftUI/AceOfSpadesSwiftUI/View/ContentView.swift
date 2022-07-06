@@ -24,28 +24,39 @@ struct ContentView: View {
                 
                 ZStack {
                     VStack(spacing: 0) {
-                        Text("A")
+                        Text("2")
                             .font(.system(size: 40, weight: .light, design: .serif))
+                            .foregroundColor(.red)
                         
-                        Image("Spade")
+                        Image("diamond")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .frame(height: 25)
                     }.offset(x: -115, y: -170)
                     
-                    Image("Spade")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(height: 100)
+                 
+                        Image("diamond")
+                           .resizable()
+                           .aspectRatio(contentMode: .fit)
+                           .frame(height: 100)
+                           .offset(x: 0, y: 135)
                     
+                        Image("diamond")
+                           .resizable()
+                           .aspectRatio(contentMode: .fit)
+                           .frame(height: 100)
+                           .offset(x: 0, y: -135)
+    
+                        
                     VStack(spacing: 0) {
-                        Image("Spade")
+                        Image("diamond")
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .frame(height: 25)
                         
-                        Text("A")
+                        Text("2")
                             .font(.system(size: 40, weight: .light, design: .serif))
+                            .foregroundColor(.red)
                     }
                     .rotationEffect(.degrees(180))
                     .offset(x: 115, y: 175)
