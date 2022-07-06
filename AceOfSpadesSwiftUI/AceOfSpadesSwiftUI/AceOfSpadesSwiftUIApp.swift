@@ -2,7 +2,7 @@
 //  AceOfSpadesSwiftUIApp.swift
 //  AceOfSpadesSwiftUI
 //
-//  Created by Ivan Ramirez on 6/3/22.
+//  Created by Yuliya Grygoryeva on 7/5/22.
 //
 
 import SwiftUI
